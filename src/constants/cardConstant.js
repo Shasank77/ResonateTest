@@ -1,0 +1,9 @@
+export const GET_CARDS = 'GET_CARDS';
+export const ADD_CARD = 'ADD_CARD';
+export const UPDATE_CARD = 'UPDATE_CARD';
+export const CARD_DETAILS = 'CARD_DETAILS';
+export const SET_CURRENT = 'SET_CURRENT';
+export const CLEAR_CURRENT = 'CLEAR_CURRENT';
+export const CLEAR_CARDS = 'CLEAR_CARDS';
+export const SET_LOADING = 'SET_LOADING';
+export const CARDS_ERROR = 'CARDS_ERROR';

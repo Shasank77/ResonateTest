@@ -1,0 +1,25 @@
+.card-tops {
+  grid-area: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--primary-color);
+  padding: 2rem;
+  img {
+    width: 200px;
+    margin: auto;
+  }
+}
+
+.round-img {
+  border-radius: 50%;
+  margin: 1rem 0;
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}

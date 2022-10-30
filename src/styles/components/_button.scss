@@ -1,0 +1,35 @@
+.button__click {
+  background: $blue;
+  border: none;
+  color: white;
+  display: inline-block;
+  padding: $s-size;
+  font-size: $font-size-large;
+  font-weight: 300;
+  line-height: 0.7;
+  text-decoration: none;
+  margin-left: 25px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+
+  @media (max-width: $desktop-breakpoint) {
+    margin-right: 30px;
+  }
+}
+
+.button__click:hover {
+  opacity: 0.8;
+}
+.button__create {
+  @extend .button__click;
+  width: 120px;
+}
+
+.button--link {
+  background: none;
+  margin-bottom: 0px;
+}
+
+.button--secondary {
+  background: #888;
+}
